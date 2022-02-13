@@ -367,3 +367,137 @@ body {
   color:#fff;
 }
 
+.about-section-head{
+  color: #fff;
+  font-size: 6.4rem;
+  line-height: 10rem;
+  font-weight: 700;
+}
+
+.about-hr{
+  width: 5rem;
+  height: 0.4rem;
+  background-color: #f67e7e;
+  margin-bottom: 4rem;
+}
+
+.about-text{
+  width: 73rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #fff;
+}
+
+.about-section-cnt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13rem;
+  margin-bottom: 12rem;
+}
+
+.meet{
+  background-color: #004047;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.meet-heading{
+  color: #fff;
+  text-align: center;
+  font-size:4.8rem;
+  line-height: 4.8rem;
+}
+
+.img-meet{
+ 
+  margin-left: 10rem;
+}
+
+.meet-img{
+  border-radius: 50% ;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+  /* object-fit: cover; */
+}
+
+.meet-title{
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+
+.meet-text{
+  color: #fff ;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-bottom: 5.6rem;
+}
+
+.meet-editors{
+  display: flex;
+  margin-top: 6.4rem;
+}
+
+.meet-editors2{
+  display: flex;
+  margin-top: 3rem;
+}
+
+.birinchi-div{
+  border: 2px solid #012F34;
+  width: 35rem;
+  background-color:#012F34 ;
+  margin-right: 10rem;
+  
+}
+
+.ikinchi-div{
+  /* margin-top: 10rem; */
+  border: 2px solid #012F34 ;
+  width: 35rem;
+  background-color:#012F34 ;
+  margin-right: 10rem;
+}
+
+.uchinchi-div{
+  /* margin-top: 10rem; */
+  border: 2px solid #012F34 ;
+  width: 35rem;
+  background-color:#012F34 ;
+}
+
+.oxirgi-div{
+  border: 2px solid #012F34 ;
+  width: 35rem;
+  background-color:#012F34 ;
+}
+
+.tortinchi-div{
+  border: 2px solid #012F34 ;
+  width: 35rem;
+  background-color:#012F34 ;
+  margin-right: 10rem;
+
+}
+
+.beshinchi-div{
+  border: 2px solid #012F34 ;
+  width: 35rem;
+  background-color:#012F34 ;
+  margin-right: 10rem;
+
+}
+
+.plus{
+  padding: 2rem 3rem ;
+  border-radius: 50%;
+  border: 1px solid #f67e7e;
+  font-size: 3rem;
+  text-decoration: none;
+  margin-left: 11rem;
+  color: #012F34;
+  background-color: #f67e7e;
+}
