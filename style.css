@@ -1,0 +1,369 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Livvic';
+  background-color: #014e56;
+}
+
+.site-header {
+  padding-top: 7.7rem;
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sitenav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sitenav-item {
+  margin-left: 4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.sitenav-link {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sitenav-link:hover {
+  color: #f67e7e;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.btn-primary {
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 2.4rem;
+  padding: 0.9rem 3.3rem 1.1rem 3.2rem;
+  margin-left: 57.7rem;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #014e56;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-primary:active {
+  opacity: 0.5;
+  color: #fff;
+  background-color: #014e56;
+}
+
+.hero {
+  background-image: url(./assets/birinchirasm.png);
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 6rem;
+  margin-top: 13.3rem;
+  margin-bottom: 25rem;
+}
+
+.hero-img-bnt{
+  margin-left: 99rem;
+}
+
+.hero-head {
+  width: 63.5rem;
+}
+
+.hero-heading {
+  font-size: 10rem;
+  line-height: 10rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.heading-in {
+  color: #f67e7e;
+}
+
+.hero-body {
+  width: 44.5rem;
+}
+
+.divider {
+  width: 5rem;
+}
+
+.hero-text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+  margin-top: 8rem;
+  color: #fff;
+}
+
+.features {
+  background-color: #012d32;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-image: url(./assets/qirqilgan-rasm.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.features-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features-item {
+  list-style-type: none;
+}
+
+.horiz {
+  width: 5rem;
+  height: 0.4rem;
+  background-color: #f67e7e;
+}
+
+.features-heading {
+  width: 44.5rem;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  color: #fff;
+  padding-top: 5.4rem;
+}
+
+.title-h5 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  color: #f67e7e;
+  padding-bottom: 1.6rem;
+}
+
+.body-feat-container {
+  margin-top: 6rem;
+  margin-left: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3.2rem;
+}
+
+.text-p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  width: 44.5rem;
+  color: #fff;
+}
+
+.chats {
+  margin-bottom: 15.1rem;
+}
+
+.chart-img-img{
+  margin-left: 106rem;
+}
+
+.chats-heading {
+  text-align: center;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 10rem;
+  margin-bottom: 9.2rem;
+}
+
+.chats-span {
+  color: #00e5ff;
+}
+
+.chats-h6 {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  width: 35rem;
+  margin-left: 2rem;
+  background-image: url(./assets/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.chats-h5 {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #00e5ff;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.chats-text {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.chats-img {
+  border-radius: 50%;
+  width: 6.2rem;
+  height: 6.2rem;
+  margin-left: 15rem;
+}
+
+.chats-item {
+  list-style: none;
+}
+
+.chats-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.star {
+  background-color: #f67e7e;
+}
+
+.star-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 7.6rem;
+  /* padding-bottom: 7.6rem; */
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.star-heading {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  color: #014e56;
+}
+
+.star-btn {
+  border: 2px solid #014e56;
+  color: #014e56;
+  border-radius: 2.4rem;
+  padding: 0.9rem 3.3rem 1.1rem 3.2rem;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.star-img{
+  display: flex;
+}
+
+
+.footer-nav{
+  display: flex;
+}
+
+.footer-link{
+  color:#fff;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+/*  */
+.foooter-cnt-cnt{
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item{
+  list-style: none;
+}
+
+
+
+.footer-logo{
+  /* margin-bottom: 2.4rem; */
+}
+
+
+.map-item{
+  font-family: 1.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+  list-style: none;
+}
+
+.in-text{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color:#fff;
+}
+
